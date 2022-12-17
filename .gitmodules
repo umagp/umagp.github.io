@@ -1,0 +1,6 @@
+[submodule "themes/newsroom"]
+	path = themes/newsroom
+	url = git@github.com:onweru/newsroom.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke

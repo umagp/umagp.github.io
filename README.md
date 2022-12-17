@@ -1,1 +1,0 @@
-# umagp.com

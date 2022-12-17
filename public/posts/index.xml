@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on umagp</title>
+    <link>http://umagp.com/posts/</link>
+    <description>Recent content in Posts on umagp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Dec 2022 17:10:17 -0800</lastBuildDate><atom:link href="http://umagp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://umagp.com/posts/hello-world/</link>
+      <pubDate>Fri, 16 Dec 2022 17:10:17 -0800</pubDate>
+      
+      <guid>http://umagp.com/posts/hello-world/</guid>
+      <description>This is a test.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL = 'http://umagp.com/'
+languageCode = 'en-us'
+title = 'umagp'
+theme = 'ananke'

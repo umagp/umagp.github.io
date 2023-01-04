@@ -13,4 +13,4 @@ publishDir = 'docs'
   identifier = 'resume'
   name = 'resume'
   url = 'https://lesliehuynhresume.glide.page/'
-  weight = -110
+  weight = -110

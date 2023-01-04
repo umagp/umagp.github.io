@@ -3,3 +3,14 @@ languageCode = 'en-us'
 title = 'umagp'
 theme = 'ananke'
 publishDir = 'docs'
+[menu]
+[[menu.main]]
+  identifier = 'fibrary'
+  name = 'fibrary'
+  url = 'https://fibrary.glideapp.io/'
+  weight = -110
+[[menu.main]]
+  identifier = 'resume'
+  name = 'resume'
+  url = 'https://lesliehuynhresume.glide.page/'
+  weight = -110

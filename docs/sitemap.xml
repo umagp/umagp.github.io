@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://umagp.com/posts/hello-world/</loc>
-    <lastmod>2022-12-16T17:10:17-08:00</lastmod>
-  </url><url>
     <loc>http://umagp.com/posts/</loc>
-    <lastmod>2022-12-16T17:10:17-08:00</lastmod>
+    <lastmod>2023-04-18T17:40:00-08:00</lastmod>
+  </url><url>
+    <loc>http://umagp.com/posts/sql-for-the-illiterate-pt2/</loc>
+    <lastmod>2023-04-18T17:40:00-08:00</lastmod>
   </url><url>
     <loc>http://umagp.com/</loc>
+    <lastmod>2023-04-18T17:40:00-08:00</lastmod>
+  </url><url>
+    <loc>http://umagp.com/posts/sql-for-the-illiterate-pt1/</loc>
+    <lastmod>2023-04-18T17:30:00-08:00</lastmod>
+  </url><url>
+    <loc>http://umagp.com/posts/funinthesheets/</loc>
     <lastmod>2022-12-16T17:10:17-08:00</lastmod>
   </url><url>
     <loc>http://umagp.com/categories/</loc>

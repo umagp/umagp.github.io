@@ -6,14 +6,33 @@
     <description>Recent content in Posts on umagp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2022 17:10:17 -0800</lastBuildDate><atom:link href="http://umagp.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Apr 2023 17:40:00 -0800</lastBuildDate><atom:link href="http://umagp.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://umagp.com/posts/hello-world/</link>
+      <title>SQL for the Illiterate – Pt. 2</title>
+      <link>http://umagp.com/posts/sql-for-the-illiterate-pt2/</link>
+      <pubDate>Tue, 18 Apr 2023 17:40:00 -0800</pubDate>
+      
+      <guid>http://umagp.com/posts/sql-for-the-illiterate-pt2/</guid>
+      <description>In my last post, I talked about my previous misadventures with SQL.
+However, I still liked what I had practiced in the CodeAcademy trial. With that in mind, I went in search of SQL course rankings and found one called Code with Mosh. The course called, Complete SQL Mastery is a deep dive into SQL and the possibilities. It’s a series of guided video courses that pair MySQL with a database that Mosh provides for learning.</description>
+    </item>
+    
+    <item>
+      <title>SQL for the Illiterate – Pt. 1</title>
+      <link>http://umagp.com/posts/sql-for-the-illiterate-pt1/</link>
+      <pubDate>Tue, 18 Apr 2023 17:30:00 -0800</pubDate>
+      
+      <guid>http://umagp.com/posts/sql-for-the-illiterate-pt1/</guid>
+      <description>Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family.</description>
+    </item>
+    
+    <item>
+      <title>Fun in the Sheets</title>
+      <link>http://umagp.com/posts/funinthesheets/</link>
       <pubDate>Fri, 16 Dec 2022 17:10:17 -0800</pubDate>
       
-      <guid>http://umagp.com/posts/hello-world/</guid>
-      <description>This is a test.</description>
+      <guid>http://umagp.com/posts/funinthesheets/</guid>
+      <description>This is a note about the links in my navigation: Resume &amp;amp; Fibrary. Years ago, someone told me about this interesting tool called glideapp. It&amp;rsquo;s a way to create a no-code app. Seeing as how my attempt to learn Haskell is currently on indefinite hiatus, this seemed like an ideal tool to try. It lets me fill a Google sheet with tabs, columns, and rows of information that becomes an interactive app.</description>
     </item>
     
   </channel>

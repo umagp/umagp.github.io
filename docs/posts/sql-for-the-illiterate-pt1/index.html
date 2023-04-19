@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>SQL for the Illiterate – Pt. 1 | umagp</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family.">
+    <meta name="generator" content="Hugo 0.108.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="SQL for the Illiterate – Pt. 1" />
+<meta property="og:description" content="Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://umagp.com/posts/sql-for-the-illiterate-pt1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-04-18T17:30:00-08:00" />
+<meta property="article:modified_time" content="2023-04-18T17:30:00-08:00" />
+<meta itemprop="name" content="SQL for the Illiterate – Pt. 1">
+<meta itemprop="description" content="Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family."><meta itemprop="datePublished" content="2023-04-18T17:30:00-08:00" />
+<meta itemprop="dateModified" content="2023-04-18T17:30:00-08:00" />
+<meta itemprop="wordCount" content="482">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="SQL for the Illiterate – Pt. 1"/>
+<meta name="twitter:description" content="Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        umagp
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://fibrary.glideapp.io/" title="fibrary page">
+              fibrary
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://lesliehuynhresume.glide.page/" title="resume page">
+              resume
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">SQL for the Illiterate – Pt. 1</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-04-18T17:30:00-08:00">April 18, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family. Loops! LoL.</p>
+<p>In a time of career reevaluation, I’ve decided to challenge myself and learn SQL. I knew someone 15 years ago who was tasked with writing SQL queries. Knowing his background and knowing him, I felt confident that this is something I too could do SQL. My first step was trying the CodeAcademy freebie to get a sense of the necessary learning curve. This was followed by trying to understand certain points of the lessons by asking my partner - an experienced functional developer - follow up questions.</p>
+<p>The two are essentially diametric opposites. CodeAcademy gave textual explanations with brief concepts and diagrams. On the other hand, my partner’s explanations were based on the premise that I already had basic knowledge (that I did not get from the CodeAcademy course). I found both just a little bit frustrating because one didn’t go deep enough and the other felt like the Mariana Trench because of missed fundamentals.</p>
+<p>CodeAcademy’s lessons left me with questions and not enough answers, nor did they give me enough confidence in their tools. One issue I had with CodeAcademy was the browser-based interpreter. It focuses mainly on the statement entry and evaluating whether or not my code was correct. A very binary tool, it didn’t give actual feedback or explanations to what I was typing.</p>
+<p>In some lessons, we were required to write several queries. On the right hand side of the interpreter, the results generated weren’t clearly explained and produced the answer to all queries that were entered. Meantime, my partner showed me some examples in Postgres, which I have been told is a REPL. A REPL for the uninitiated such as I, is when the interpreter simply shows the results for the last statement and not everything previous. That made so much more sense.</p>
+<p>Ultimately, the CodeAcademy lessons have not worked for me despite two attempts. And what we say for new knitters and crocheters, you should start with the best tools for the best chance at success. The best tools will make learning less frustrating and a better experience that will encourage you to continue learning. CodeAcademy has not proven to be a good tool for me in terms of learning. I’m sure that it works well for many people, but I always learn best with the right teachers. I don’t think a set of texts with dry explanations work well for me.</p>
+<p>This disappointing start did not stop me from trying again.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://umagp.com/" >
+    &copy;  umagp 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

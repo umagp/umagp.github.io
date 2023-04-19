@@ -2,7 +2,7 @@
 title: "SQL for the Illiterate – Pt. 2"
 date: 2023-04-18T17:40:00-08:00
 ---
-In my last post, I talked about my previous misadventures with SQL.
+In my last post, I talked about my previous [misadventures with SQL](https://umagp.com/posts/sql-for-the-illiterate-pt1/).
 
 However, I still liked what I had practiced in the CodeAcademy trial. With that in mind, I went in search of SQL course rankings and found one called Code with Mosh. The course called, Complete SQL Mastery is a deep dive into SQL and the possibilities. It’s a series of guided video courses that pair MySQL with a database that Mosh provides for learning.
  

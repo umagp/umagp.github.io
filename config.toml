@@ -14,3 +14,9 @@ publishDir = 'docs'
   name = 'resume'
   url = 'https://lesliehuynhresume.glide.page/'
   weight = -110
+[[params.ananke_socials]]
+  name = 'twitter'
+  follow = false
+[[params.ananke_socials]]
+  name = 'linkedin'
+  url = 'https://www.linkedin.com/in/lesliehuynh/' 

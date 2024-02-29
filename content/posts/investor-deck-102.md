@@ -1,6 +1,7 @@
 ---
-title: "Investor Deck 102"
+title: "Your Product Isn't That Important"
 date: 2024-02-28T17:20:25-00:00
+slug: investor-deck-102
 ---
 When you get a warm introduction or have someone pass along your deck, that's the first chance you get in front of a VC (and possibly the only chance). As a founder, you think, "all they need to see is how awesome my idea is, and our business plan, and then it will be inevitable." 
 

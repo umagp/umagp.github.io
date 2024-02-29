@@ -3,7 +3,7 @@ title: "Your Product Isn't That Important"
 date: 2024-02-28T17:20:25-00:00
 slug: investor-deck-102
 ---
-When you get a warm introduction or have someone pass along your deck, that's the first chance you get in front of a VC (and possibly the only chance). As a founder, you think, "all they need to see is how awesome my idea is, and our business plan, and then it will be inevitable." 
+When you get a warm introduction or have someone pass along your deck, that's the first chance you get in front of a VC (and possibly the only chance). As a founder, you think, "all they need to see is how awesome my idea is, our business plan, and then it will be inevitable." 
 
 There are many websites that tell you the standard slides you need for an investor deck. Problem, solution, opportunity, go to market, business model, financials, tech, timeline, team, competition, ask. That's your standard recipe for a deck. 
 

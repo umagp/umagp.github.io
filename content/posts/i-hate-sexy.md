@@ -1,6 +1,6 @@
 ---
 title: "I Hate Sexy"
-date: 2022-12-16T17:10:17-08:00
+date: 2024-03-21T17:10:17-08:00
 ---
 
 Okay, I don’t actually hate sexy, I’m just not into “sexy” businesses. If I’m rolling into a pitch with a pair of shades saying, this is the “hottest new thing - like sex but with computers”, I’ve done something wrong.

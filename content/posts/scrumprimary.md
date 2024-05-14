@@ -4,7 +4,7 @@ date: 2024-05-14T12:00:17-08:00
 ---
 Sorry, but I still call it the Master Bedroom. Anyway…
 
-I passed the PSM I from Scrum.org. And on the first try!
+I passed the PSM I from Scrum.org. And on the first try! It wasn't so much difficult as the lack of discrete experience inside of a dev team that made for the biggest challenge.
 
 The first two startups I worked with were the only ones that had in house dev teams. The first had a team of Eastern European devs because the founder was from there and had his business dealings primarily there. I initially started to help with communications and deck creation, but ended up focused more on the product. 
 

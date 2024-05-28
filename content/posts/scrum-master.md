@@ -11,7 +11,7 @@ Thankfully, I chose to buy a course on [Udemy](https://www.udemy.com/course/agil
 
 I’m sure I’m not the first to notice this, but the first rule of Scrum is: 
 
-![there are no rule](https://images.squarespace-cdn.com/content/v1/5ee369c0596e6628f3afc15b/1597402359190-EVZ3YLNPNUE4UTY6UGUK/guidelines.jpg)
+![there are no rules](https://images.squarespace-cdn.com/content/v1/5ee369c0596e6628f3afc15b/1597402359190-EVZ3YLNPNUE4UTY6UGUK/guidelines.jpg)
 
 Ultimately, my biggest takeaways for someone who has never been a part of a Scrum team is that I don’t actually agree with Scrum. It seems to be an ideal that is very hard to achieve. 
 

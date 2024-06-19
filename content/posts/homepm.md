@@ -47,7 +47,7 @@ Another thing to note is where this lands in the product backlog. On a scale of 
 
 Now let’s be honest, it’s very likely that we’ll go with either Ikea or a semi-custom. That means I need to take measurements and plot out the various ways of combining the different units. I need to choose something that will be available in the exact color and size, with contingencies for discontinued parts if it takes us a year before we get to phase 2. 
 
-If things go wrong on an Ikea or semi-custom build, there’s only me for accountability. Paying more means that a fuck up is on the contractor’s dime because they assumed the role of project manager. That means, I need to account for whether or not a large mistake on my part could outweigh the cost-saving of being more hands on.
+If things go wrong on an Ikea or semi-custom build, there’s only me for accountability. Paying more means that a fuck-up is on the contractor’s dime because they assumed the role of project manager. That means, I need to account for whether or not a large mistake on my part could outweigh the cost-saving of being more hands-on.
 
 **Next Steps**
 

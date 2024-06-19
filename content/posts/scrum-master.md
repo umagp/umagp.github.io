@@ -13,7 +13,7 @@ I’m sure I’m not the first to notice this, but the first rule of Scrum is:
 
 ![there are no rules](https://images.squarespace-cdn.com/content/v1/5ee369c0596e6628f3afc15b/1597402359190-EVZ3YLNPNUE4UTY6UGUK/guidelines.jpg)
 
-Ultimately, my biggest takeaways for someone who has never been a part of a Scrum team is that I don’t actually agree with Scrum. It seems to be an ideal that is very hard to achieve. 
+Ultimately, my biggest takeaways for someone who has never been a part of a Scrum team is that I don’t actually agree with Scrum in its purest form. It seems to be an ideal that is very hard to achieve. But by the sounds of things, most teams use a modified Scrum that best fits their team structure.
 
 1.	As the computer science degrees become saturated, you have a wide array of programmers with ability. Scrum is dependent upon excellent developers who can work together and independently. Strategy and execution. Until more recently, developers have been people passionate about CS. With the understanding of being a lucrative job and growing demand, more developers with a wider range of skill emerge. It leaves behind people who have a less lofty aptitude but are great workers. 
 2.	Strict time-boxed scrums seem untenable. There are too many variables to consistently maintain the precise schedule of these events. From what I’ve been told, most companies may start with this intention, but it doesn’t survive. 

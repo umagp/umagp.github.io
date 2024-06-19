@@ -10,7 +10,7 @@ With each renovation, I understand my role better and attempt to anticipate the 
 
 Warning: this is a boring post. This is about my reasoning for just one small project in my home, including check lists. You can skip to the end if you just don’t care.
 
-##Home Reno
+**Home Reno**
 Sometimes without the right experience, it’s hard to think about the long-term effects or the chain reactions. When I plan, I try to think several steps ahead, looking at both micro and macro aspects. We’ll look at the need to redo the closets in our room. They are badly organized, broken, and worst of all, it looks like a pastel gobbling unicorn vomited. 
 
 There is one issue blocker on that wall: a door to the backyard. If we redo with built-in or built in looking closets, it needs to stop before the door. That’s not a problem. The problem is that we may remove that door in the not-too-distant future. If we do that, there will be a potentially strange gap where there will be nothing. How do I prepare for that possible future?

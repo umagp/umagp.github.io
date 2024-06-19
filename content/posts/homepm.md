@@ -33,14 +33,14 @@ To move forward, I must make some baseline decisions:
 
 Another thing to note is where this lands in the product backlog. On a scale of 1-5 for each of the criteria:
 
-Urgency: **1**
-Size of project: **3**
-Utility: **4**
-Cost of project: **2-4** (based on material & labor choice)
-Time living in construction: **1-4** (inverse to the cost of the project)
-Organization/decision making requirements: **1-3** (inverse to the cost of the project)
-Necessity for sale of the house: **4**
-Dependencies: Back door
+Urgency: **1**<br>
+Size of project: **3**<br>
+Utility: **4**<br>
+Cost of project: **2-4** (based on material & labor choice)<br>
+Time living in construction: **1-4** (inverse to the cost of the project)<br>
+Organization/decision making requirements: **1-3** (inverse to the cost of the project)<br>
+Necessity for sale of the house: **4**<br>
+Dependencies: Back door<br>
 Possible blockers: Discontinued house flooring, adjacent original built in closet
 
 Now let’s be honest, it’s very likely that we’ll go with either Ikea or a semi-custom. That means I need to take measurements and plot out the various ways of combining the different units. I need to choose something that will be available in the exact color and size, with contingencies for discontinued parts if it takes us a year before we get to phase 2. 

@@ -12,7 +12,7 @@ Warning: this is a boring post. This is about my reasoning for just one small pr
 
 **Home Reno**
 
-Sometimes without the right experience, it’s hard to think about the long-term effects or the chain reactions. When I plan, I try to think several steps ahead, looking at both micro and macro aspects. We’ll look at the need to redo the closets in our room. They are badly organized, broken, and worst of all, it looks like a pastel gobbling unicorn vomited. 
+Sometimes without the right experience, it’s hard to think about the long-term effects or the chain reactions. When I plan, I try to think several steps ahead, looking at both micro and macro aspects. We’ll look at the need to redo the closets in our room. They are badly organized, broken, and worst of all, it looks like a pastel-gobbling unicorn vomited. 
 
 There is one issue blocker on that wall: a door to the backyard. If we redo with built-in or built in looking closets, it needs to stop before the door. That’s not a problem. The problem is that we may remove that door in the not-too-distant future. If we do that, there will be a potentially strange gap where there will be nothing. How do I prepare for that possible future?
 
@@ -64,4 +64,4 @@ I also care about the functionality for future owners (even though it probably w
 
 **Product/Project Management & My Home**
 
-If you’ve read through to this point, I’d be amazed. I get a bit obsessive, researching everything to find what best suits us now and will last for a considerable amount of time. Managing the vision and the minutia of my home strategy feels good. Balancing the needs, wants, resources, and optimizing for a future state feels like a great puzzle with satisfying and tangible results. And if you want someone that will be this obsessed on your behalf, I’m available!
+If you’ve read through to this point, I’d be amazed. I get a bit obsessive, researching everything to find what best suits us now and will last for a considerable amount of time. Managing the vision and the minutia of my home strategy feels good. Balancing the needs, wants, resources, and optimizing for a future state feels like a great puzzle with satisfying and tangible results. And if you want someone that will be this obsessed on your behalf, I’m open to work! Get in touch on LinkedIn.

@@ -1,6 +1,6 @@
 ---
 title: "Product and Project Managing Life: Home Edition"
-date: 2024-06-18T12:00:00-17:00
+date: 2024-06-18T17:00:00-00:00
 ---
 I’ve realized that so much of my life is product and project management if I want to survive chaos with minimal difficulty. One example is home renos. Renovating requires product and project managing my own home. 
 

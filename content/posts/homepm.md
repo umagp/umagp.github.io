@@ -10,7 +10,7 @@ With each renovation, I understand my role better and attempt to anticipate the 
 
 Warning: this is a boring post. This is about my reasoning for just one small project in my home, including check lists. You can skip to the end if you just don’t care.
 
-Home Reno
+**Home Reno**
 Sometimes without the right experience, it’s hard to think about the long-term effects or the chain reactions. When I plan, I try to think several steps ahead, looking at both micro and macro aspects. We’ll look at the need to redo the closets in our room. They are badly organized, broken, and worst of all, it looks like a pastel gobbling unicorn vomited. 
 
 There is one issue blocker on that wall: a door to the backyard. If we redo with built-in or built in looking closets, it needs to stop before the door. That’s not a problem. The problem is that we may remove that door in the not-too-distant future. If we do that, there will be a potentially strange gap where there will be nothing. How do I prepare for that possible future?
@@ -20,15 +20,15 @@ We could go ahead and build the storage, then figure it out when the time comes.
 **Assessment**
 To move forward, I must make some baseline decisions: 
 1.	What is the desired function? 
-a.	Is it all clothing, accessories, linen?
-b.	How much should I dedicate to hanging or drawer space?
-c.	Will I be storing accessories like handbags, ties, belts?
-d.	Is it also replacing our dresser?
+- Is it all clothing, accessories, linen?
+- How much should I dedicate to hanging or drawer space?
+- Will I be storing accessories like handbags, ties, belts?
+- Is it also replacing our dresser?
 2.	Are we going with a semi-custom or fully custom closet?
-a.	Ikea (let’s face it – Pax is eternal)
-b.	A semi-custom closet company that you install yourself
-c.	A custom closet company
-d.	Local carpenter
+- Ikea (let’s face it – Pax is eternal)
+- A semi-custom closet company that you install yourself
+- A custom closet company
+- Local carpenter
 3.	How do I get a design that works regardless of whether we keep the back door or get rid of it?
 
 Another thing to note is where this lands in the product backlog. On a scale of 1-5 for each of the criteria:

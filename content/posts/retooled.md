@@ -4,7 +4,7 @@ date: 2024-07-03T10:00:00-08:00
 ---
 [Retool](https://retool.com/), for those who don’t know, is a low-code platform allowing even non-developers to build a web app. With a no/low code person (me) and a deeply experienced developer (the boyfriend), we thought this would be a cool new tool to learn. 
 
-I’ve used [Glide](https://www.glideapps.com/) in the past, taking an excel sheet compiling a list of some of my knitting patterns and details of each pattern. Glide let me make an app with my only code experience being HTML. It was exciting and when I was done, I had an app that I built using Google Sheets. 
+I’ve used [Glide](https://www.glideapps.com/) in the past, taking an excel sheet compiling a list of some of my knitting patterns and details of each pattern. Glide let me make an app with my only code experience being HTML. It was exciting, and when I was done, I had an app that I built using Google Sheets. 
 
 So where does Retool sit? 
 

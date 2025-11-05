@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>That Don&#39;t Make Sense, SQL | umagp</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:
+select *
+from payments
+where amount &gt; 20;
+This works and it makes sense that it works.
+Then you try this:
+select *
+from payments
+where avg(amount);
+And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.">
+    <meta name="generator" content="Hugo 0.152.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/that-dont-make-sense-sql/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/that-dont-make-sense-sql/">
+  <meta property="og:site_name" content="umagp">
+  <meta property="og:title" content="That Don&#39;t Make Sense, SQL">
+  <meta property="og:description" content="One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:
+select * from payments where amount &gt; 20; This works and it makes sense that it works. Then you try this:
+select * from payments where avg(amount); And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-05-31T17:45:34-08:00">
+    <meta property="article:modified_time" content="2023-05-31T17:45:34-08:00">
+    <meta property="article:tag" content="Sql">
+
+  <meta itemprop="name" content="That Don&#39;t Make Sense, SQL">
+  <meta itemprop="description" content="One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:
+select * from payments where amount &gt; 20; This works and it makes sense that it works. Then you try this:
+select * from payments where avg(amount); And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.">
+  <meta itemprop="datePublished" content="2023-05-31T17:45:34-08:00">
+  <meta itemprop="dateModified" content="2023-05-31T17:45:34-08:00">
+  <meta itemprop="wordCount" content="243">
+  <meta itemprop="keywords" content="Sql">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="That Don&#39;t Make Sense, SQL">
+  <meta name="twitter:description" content="One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:
+select * from payments where amount &gt; 20; This works and it makes sense that it works. Then you try this:
+select * from payments where avg(amount); And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        umagp
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="https://fibrary.glideapp.io/" title="fibrary page">
+              fibrary
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="https://lesliehuynhresume.glide.page/" title="resume page">
+              resume
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">That Don&#39;t Make Sense, SQL</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2023-05-31T17:45:34-08:00">May 31, 2023</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">from</span> payments
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">where</span> amount <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">20</span>;
+</span></span></code></pre></div><p>This works and it makes sense that it works.
+Then you try this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">from</span> payments
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">where</span> <span style="color:#66d9ef">avg</span>(amount);
+</span></span></code></pre></div><p>And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">select</span> <span style="color:#f92672">*</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">from</span> payments
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">where</span> amount <span style="color:#f92672">&gt;</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">select</span> <span style="color:#66d9ef">avg</span>(amount) 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">from</span> payments
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><p>But how has the former created a grouping error? You’re not grouping anything. You’re comparing each entry to the average and validating yes or no, but there’s no aggregation for the results. The answer is one of those logical leaps when compared to similar queries.</p>
+<p>ChatGPT says that the reason this is true is because <code>WHERE</code> works on a row level whereas <code>AVG()</code> is an aggregate function. My partner tells me this is because <code>AVG</code> doesn&rsquo;t have &ldquo;value semantics&rdquo; in SQL, but that doesn&rsquo;t mean much to me right now.</p>
+<p>That’s one of the frustrating things about SQL. While I am technically correct and following the formula, I’m wrong. When learning online, the biggest problem is that often times it’s rote and formulaic, with limited ability to ask questions or have conversations with peers about the subject matter. Learning is supplemented between my partner and ChatGPT.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/sql/" class="link f5 grow br-pill ba ph3 pv2 mb2 dib black sans-serif no-underline">Sql</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  umagp 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

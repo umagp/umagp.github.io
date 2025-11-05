@@ -2,38 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>umagp</title>
-    <link>http://umagp.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on umagp</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Apr 2023 17:40:00 -0800</lastBuildDate><atom:link href="http://umagp.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Nov 2025 00:00:00 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Printing, My Home Fix-It Hero Origin Story</title>
+      <link>http://localhost:1313/posts/3d-printing/</link>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/3d-printing/</guid>
+      <description>&lt;p&gt;I’ve been crafting for as long as I can remember. When I was about four, my mom taught me my first origami model, a little paper boat (much like the one from IT that I too sailed down the gutter on rainy days). By seven, my aunt had taught me to crochet, and from there I dived into embroidery, sewing, paper arts, and just about any craft I could get my hands on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Retool needs a retooling</title>
+      <link>http://localhost:1313/posts/retooled/</link>
+      <pubDate>Wed, 03 Jul 2024 10:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/retooled/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://retool.com/&#34;&gt;Retool&lt;/a&gt;, for those who don’t know, is a low-code platform allowing even non-developers to build a web app. With a no/low code person (me) and a deeply experienced developer (the boyfriend), we thought this would be a cool new tool to learn.&lt;/p&gt;&#xA;&lt;p&gt;I’ve used &lt;a href=&#34;https://www.glideapps.com/&#34;&gt;Glide&lt;/a&gt; in the past, taking an excel sheet compiling a list of some of my knitting patterns and details of each pattern. Glide let me make an app with my only code experience being HTML. It was exciting, and when I was done, I had an app that I built using Google Sheets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Product and Project Managing Life: Home Edition</title>
+      <link>http://localhost:1313/posts/homepm/</link>
+      <pubDate>Tue, 18 Jun 2024 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/homepm/</guid>
+      <description>&lt;p&gt;I’ve realized that so much of my life is product and project management if I want to survive chaos with minimal difficulty. One example is home renos. Renovating requires product and project managing my own home.&lt;/p&gt;&#xA;&lt;p&gt;What is the theme for my home? What fix or renovation do we prioritize? How much are we willing to spend? What items should we buy higher quality/brand vs a good, generic, less expensive option? I make decisions based upon the ROI, the cost to fix a problem, expected time to replace an item down the road, and the Venn diagram of all three (essentially the life version of tech debt).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I am a Scrum Master</title>
+      <link>http://localhost:1313/posts/scrum-master/</link>
+      <pubDate>Fri, 24 May 2024 12:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/scrum-master/</guid>
+      <description>&lt;p&gt;I took the Professional Scrum Master I exam. Why? Because I want to be more agile. I have a lot of startup experience on almost every front, but as I tell people, I don’t do the programming. So, I decided to check out Scrum and certification.&lt;/p&gt;&#xA;&lt;p&gt;Ultimately, I chose Scrum.org’s certification. The exam is based on the &lt;a href=&#34;https://scrumguides.org/download.html&#34;&gt;Scrum Guide&lt;/a&gt;, a short 11 page PDF.  You might think, the test must be easy then. The problem is, there’s a lot of lateral thinking applying Scrum to various scenarios in the test. Just by reading the guide, you won’t be able to pass the exam without applied experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I Hate Sexy</title>
+      <link>http://localhost:1313/posts/i-hate-sexy/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 -0800</pubDate>
+      <guid>http://localhost:1313/posts/i-hate-sexy/</guid>
+      <description>&lt;p&gt;Okay, I don’t actually hate sexy, I’m just not into “sexy” businesses. If I’m rolling into a pitch with a pair of shades saying, this is the “hottest new thing - like sex but with computers”, I’ve done something wrong.&lt;/p&gt;&#xA;&lt;p&gt;After working for and with many startups, the things I am most interested in are businesses that don’t ooze sex appeal. I like businesses that enable positive changes or facilitate important aspects of our life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Your Product Isn&#39;t That Important</title>
+      <link>http://localhost:1313/posts/investor-deck-102/</link>
+      <pubDate>Wed, 28 Feb 2024 17:20:25 +0000</pubDate>
+      <guid>http://localhost:1313/posts/investor-deck-102/</guid>
+      <description>&lt;p&gt;When you get a warm introduction or have someone pass along your deck, that&amp;rsquo;s the first chance you get in front of a VC (and possibly the only chance). As a founder, you think, &amp;ldquo;all they need to see is how awesome my idea is, our business plan, and then it will be inevitable.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;There are many websites that tell you the standard slides you need for an investor deck. Problem, solution, opportunity, go to market, business model, financials, tech, timeline, team, competition, ask. That&amp;rsquo;s your standard recipe for a deck.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>That Don&#39;t Make Sense, SQL</title>
+      <link>http://localhost:1313/posts/that-dont-make-sense-sql/</link>
+      <pubDate>Wed, 31 May 2023 17:45:34 -0800</pubDate>
+      <guid>http://localhost:1313/posts/that-dont-make-sense-sql/</guid>
+      <description>&lt;p&gt;One of the things that baffles me with SQL is how some things make complete sense, but when you apply the same logic, it just doesn’t work. For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; payments&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt; amount &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This works and it makes sense that it works.&#xA;Then you try this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;from&lt;/span&gt; payments&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;avg&lt;/span&gt;(amount);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And you get a grouping error. Which makes no sense. Why shouldn’t you be able to make that work? Instead, you have to write it as a subquery.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>SQL for the Illiterate – Pt. 2</title>
-      <link>http://umagp.com/posts/sql-for-the-illiterate-pt2/</link>
+      <link>http://localhost:1313/posts/sql-for-the-illiterate-pt2/</link>
       <pubDate>Tue, 18 Apr 2023 17:40:00 -0800</pubDate>
-      
-      <guid>http://umagp.com/posts/sql-for-the-illiterate-pt2/</guid>
-      <description>In my last post, I talked about my previous misadventures with SQL.
-However, I still liked what I had practiced in the CodeAcademy trial. With that in mind, I went in search of SQL course rankings and found one called Code with Mosh. The course called, Complete SQL Mastery is a deep dive into SQL and the possibilities. It’s a series of guided video courses that pair MySQL with a database that Mosh provides for learning.</description>
+      <guid>http://localhost:1313/posts/sql-for-the-illiterate-pt2/</guid>
+      <description>&lt;p&gt;In my last post, I talked about my previous &lt;a href=&#34;https://umagp.com/posts/sql-for-the-illiterate-pt1/&#34;&gt;misadventures with SQL&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;However, I still liked what I had practiced in the CodeAcademy trial. With that in mind, I went in search of SQL course rankings and found one called Code with Mosh. The course called, Complete SQL Mastery is a deep dive into SQL and the possibilities. It’s a series of guided video courses that pair MySQL with a database that Mosh provides for learning.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SQL for the Illiterate – Pt. 1</title>
-      <link>http://umagp.com/posts/sql-for-the-illiterate-pt1/</link>
+      <link>http://localhost:1313/posts/sql-for-the-illiterate-pt1/</link>
       <pubDate>Tue, 18 Apr 2023 17:30:00 -0800</pubDate>
-      
-      <guid>http://umagp.com/posts/sql-for-the-illiterate-pt1/</guid>
-      <description>Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family.</description>
+      <guid>http://localhost:1313/posts/sql-for-the-illiterate-pt1/</guid>
+      <description>&lt;p&gt;Okay, so typing this out generally speaks to my literacy, but when it comes to programming languages, it’s like all my years of schooling mean nothing. My only foray was trying first few lessons of Haskell in CodeAcademy many years ago. I haven’t done more than self-taught HTML (enough to bang out a reasonable website for an early stage company with limited budget) and talking nerdy to my close friends and family. Loops! LoL.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fun in the Sheets</title>
-      <link>http://umagp.com/posts/funinthesheets/</link>
+      <link>http://localhost:1313/posts/funinthesheets/</link>
       <pubDate>Fri, 16 Dec 2022 17:10:17 -0800</pubDate>
-      
-      <guid>http://umagp.com/posts/funinthesheets/</guid>
-      <description>This is a note about the links in my navigation: Resume &amp;amp; Fibrary. Years ago, someone told me about this interesting tool called glideapp. It&amp;rsquo;s a way to create a no-code app. Seeing as how my attempt to learn Haskell is currently on indefinite hiatus, this seemed like an ideal tool to try. It lets me fill a Google sheet with tabs, columns, and rows of information that becomes an interactive app.</description>
+      <guid>http://localhost:1313/posts/funinthesheets/</guid>
+      <description>&lt;p&gt;This is a note about the links in my navigation: Resume &amp;amp; Fibrary. Years ago, someone told me about this interesting tool called glideapp. It&amp;rsquo;s a way to create a no-code app. Seeing as how my attempt to learn Haskell is currently on indefinite hiatus, this seemed like an ideal tool to try. It lets me fill a Google sheet with tabs, columns, and rows of information that becomes an interactive app.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

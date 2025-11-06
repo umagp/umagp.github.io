@@ -7,7 +7,7 @@ publishDir = 'docs'
 [[menu.main]]
   identifier = 'fibrary'
   name = 'fibrary'
-  url = 'https://fibrary.glideapp.io/'
+  url = 'https://fibrary.glide.page'
   weight = -110
 [[menu.main]]
   identifier = 'resume'
